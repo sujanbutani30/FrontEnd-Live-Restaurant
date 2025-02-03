@@ -1,0 +1,44 @@
+------------ Api --- intigration
+
+
+_________________user---------------------
+
+
+
+Get :  /api/v1/addCart/getOrder/${user._id}
+delet :  api/v1/addCart/deleteItem/${orderId}
+post: /api/v1/order/create
+get : /api/v1/category/getCategory
+get : /api/v1/manageorder/items/${id}
+get : /api/v1/user/getUser
+post:/api/v1/addCart/createOrder
+
+get : /api/v1/category/getCategory
+get : api/v1/manageorder/getAllItems
+
+post : /api/v1/user/userSignup
+get:/api/v1/manageorder/getAllItems
+
+----------Admin-----------------
+
+get:/api/v1/adminedit/getadmin
+get:/api/v1/resturant/getRestaurant
+get:/api/v1/adminedit/getadmin
+get:/api/v1/manageorder/add
+get:/api/v1/category/getCategory
+/api/v1/manageorder/items/${id}
+/api/v1/manageorder/editItem/${updatedItem._id}
+/api/v1/manageorder/deleteItem/${itemId}
+/api/v1/category/createCategory
+/api/v1/adminedit/getadmin
+/api/v1/manageorder/getAllItems
+/api/v1/order/deliverd/${orderId}
+/api/v1/order/getPlacedOrder
+/order/accept-order
+/order/getPlacedOrder
+/api/v1/adminedit/updatepassword
+/api/v1/adminedit/updateadmin
+/api/v1/qrCode/createQrCode
+/api/v1/qrCode/updateQrCode/${id}
+/api/v1/qrCode/getAllQrCodes
+/api/v1/qrCode/deleteQrCode/${selectedQrCodeId}
